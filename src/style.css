@@ -1,0 +1,14 @@
+body {
+  background-color: blue;
+}
+
+a,
+h1,
+h2,
+p {
+  font-family: "Kiwi Maru", serif;
+}
+
+h1 {
+  padding: 20px;
+}
