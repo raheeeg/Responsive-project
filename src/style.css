@@ -1,14 +1,22 @@
-body {
-  background-color: blue;
+.hero {
+  background-color: #e5e5e5;
 }
 
 a,
 h1,
 h2,
+h3,
 p {
   font-family: "Kiwi Maru", serif;
 }
 
 h1 {
-  padding: 20px;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
 }
