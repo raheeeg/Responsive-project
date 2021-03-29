@@ -1,5 +1,9 @@
+:root {
+  --color-one: #e5e5e5;
+}
+
 .hero {
-  background-color: #e5e5e5;
+  background-color: var(--color-one);
 }
 
 a,
@@ -8,15 +12,27 @@ h2,
 h3,
 p {
   font-family: "Kiwi Maru", serif;
+  text-align: center;
 }
 
 h1 {
   padding: 20px 0 0 0;
-  text-align: center;
+}
+
+h3 {
+  padding: 20px;
 }
 
 .hero h2 {
   font-size: 18px;
   padding: 10px;
-  text-align: center;
+}
+
+img {
+  max-width: 360px;
+}
+
+.text {
+  padding: 20px;
+  background-color: var(--color-one);
 }
