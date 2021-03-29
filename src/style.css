@@ -36,3 +36,8 @@ img {
   padding: 20px;
   background-color: var(--color-one);
 }
+
+a {
+  max-width: 200px;
+  padding: 10px;
+}
