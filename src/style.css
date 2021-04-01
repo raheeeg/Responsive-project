@@ -46,3 +46,9 @@ a {
 .about {
   padding: 20px;
 }
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
