@@ -1,10 +1,18 @@
 :root {
-  --color-one: #e5e5e5;
+  --color-one: #7b113a;
+  --color-two: #25262a;
+  --color-three: #cdfffc;
   --font: "Kiwi Maru", serif;
 }
 
-.hero {
+.container {
+  background-color: var(--color-three);
+}
+
+.hero,
+.footer {
   background-color: var(--color-one);
+  color: var(--color-three);
 }
 
 a,
@@ -13,42 +21,53 @@ h2,
 h3,
 p {
   font-family: var(--font);
+  color: var(--color-two);
   text-align: center;
 }
 
 h1 {
   padding: 20px 0 10px 0;
+  color: var(--color-three);
 }
 
-h3 {
-  padding: 20px;
-}
-
-.hero h2 {
+.hero h2,
+.footer a {
   font-size: 18px;
   padding: 0 0 10px 0;
+  text-decoration: none;
+  color: var(--color-three);
 }
 
 img {
   max-width: 360px;
+  padding: 10px;
 }
 
 .text {
   padding: 20px;
-  background-color: var(--color-one);
-}
-
-a {
-  max-width: 200px;
-  padding: 10px;
 }
 
 .about {
-  padding: 20px;
+  padding: 10px;
 }
 
 li {
   list-style: none;
   text-align: center;
   padding: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: var(--color-three);
+}
+
+.btn {
+  max-width: 200px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: var(--color-one);
 }
