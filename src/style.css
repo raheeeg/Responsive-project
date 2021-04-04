@@ -13,6 +13,7 @@
 .footer {
   background-color: var(--color-one);
   color: var(--color-three);
+  padding: 0;
 }
 
 a,
@@ -39,7 +40,7 @@ h1 {
 }
 
 img {
-  max-width: 360px;
+  width: 480px;
   padding: 10px;
 }
 
@@ -62,12 +63,24 @@ button a {
   color: var(--color-three);
 }
 
+.btn-dark:hover {
+  background-color: var(--color-one);
+}
+
 .btn {
   max-width: 200px;
   padding: 20px;
   margin-top: 20px;
 }
 
-a:hover {
-  color: var(--color-one);
+.fa-facebook {
+  color: #4065ac;
+}
+
+.fa-instagram {
+  color: #8a3ab9;
+}
+
+.fa-twitter {
+  color: #1c9cea;
 }
